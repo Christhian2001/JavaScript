@@ -1,9 +1,10 @@
-var partida = 1
-console.log(`Apartida so acaba quando chegar a 12`)
-if(partida < 12) {
-    console.log(`O jogo ainda esta em ${partida} nao acabou`)
-} else if(partida <= 14) {
-    console.log(`O jogo empatou com ${partida}`)
-} else if(partida = 15){
-    console.log(`Fim de jogo ${partida}`)
+let di = 20
+if(di < 11) {
+    console.log('Ainda e uma criança')
+} else if(di < 14) {
+    console.log('Ainda e um pre adolecente')
+} else if(di < 15 || di < 18 ) {
+    console.log('E um adolecente')
+} else {
+    console.log('E um adulto')
 }
