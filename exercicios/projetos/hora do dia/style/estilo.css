@@ -13,20 +13,25 @@ header {
 section {
     margin: auto;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     height: 380px;
-    width: 580px;
+    width: 530px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.368);
     
 }
 
-div#img {
+div {
+    text-align: center;
+    padding: 15px;
+}
+
+#imagem{
     
     background-size: cover;
     border-radius: 50%;
-    height: 350px;
-    width: 350px;
+    height: 280px;
+    width: 280px;
 }
 
 footer {
